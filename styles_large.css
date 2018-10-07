@@ -1,0 +1,31 @@
+@media (min-width: 1000px) {
+
+    .grid__row {
+        flex-direction: row;
+
+      }
+
+    .grid__col {
+        width: 50%;
+        padding-right: 10px;
+        padding-left: 10px;
+
+        margin-bottom: 40px;
+
+        
+      }
+
+      .cards__col {
+        width: 33.3333333%;
+      }
+
+}
+
+@media (min-width: 1490px) {
+    main {
+        padding-left: 0;
+        padding-right: 0;
+      }
+      
+
+}

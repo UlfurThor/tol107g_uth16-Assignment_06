@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: 'Open Sans', helvetica, arial, sans-serif;
+  font-size: 16px;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 1450px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.text {
+  margin-bottom: 20px;
+}
+
+.text p {
+  margin-bottom: 20px;
+}
+
+.image {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+/* -.grid -------------------------------------------------- */
+
+.grid__row {
+  display: flex;
+  flex-direction: column;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.grid__col {
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+
+/* .card ---------------------------------------------- */
+
+.cards {
+  margin-bottom: 40px;
+}
+
+.cards__row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.cards__col {
+  width: 50%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+
+  width: 100%;
+  height: 300px;
+  background-color: #fff;
+
+  border-style: solid;
+  border-width: 2px;
+  border-color: #aaa;
+  border-radius: 5px;
+
+  padding: 10px;
+
+  margin-bottom: 20px;
+}
+
+.card__headding {
+  font-size: 1.375rem;
+  line-height: 1.2em;
+  font-weight: bold;
+
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.card_content {
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  justify-content: space-between;
+}
+
+.card_content__textParagraph {
+  font-size: 1rem;
+  line-height: 1.375rem;
+  /*margin-right: 1rem;*/
+  overflow: auto;
+
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+
+.card_content__image {
+  margin-left: 1rem;
+  max-width: 150px;
+  max-height: 150px;
+  display: flex;
+  align-items: baseline;
+}
+
+.card_content__image img {
+  min-width: 100%;
+  height: auto;
+}
+
+.card__list {
+  margin-top: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.card__list li {
+  list-style-type: none;
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
